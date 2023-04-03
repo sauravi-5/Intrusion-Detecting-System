@@ -33,7 +33,7 @@ Finally, the program displays the processed frames along with any bounding recta
 
 1) Install the necessary libraries from requirements.txt
 2) Create a virtual environment and activate.
-3) To run this code input the following in command prompt:
+3) To run this code input the following in terminal:
 
 ```bash
  python code.py
