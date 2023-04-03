@@ -16,6 +16,15 @@ The program allows the user to select a rectangular area within the frame where 
 
 
 ## Contents of this repository
+```bash
+ Intrusion-Detection-System/
+├─ code.py
+├─ video.mp4
+├─ LICENSE
+├─ README.md
+├─ requirements.txt
+```
+
 
 
 ## Functionality
