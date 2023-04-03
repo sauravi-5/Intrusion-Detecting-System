@@ -56,7 +56,3 @@ Finally, the program displays the processed frames along with any bounding recta
 
 This project can be further extended to include additional features such as face recognition, crowd analysis, and automatic tracking of detected objects. The system can also be integrated with alarms or notifications to alert security personnel in real-time. Additionally, the project can be optimized for high-performance systems and deployed for commercial use in public areas, workplaces, and other places requiring advanced video surveillance.
 
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
