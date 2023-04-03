@@ -36,7 +36,7 @@ Finally, the program displays the processed frames along with any bounding recta
 3) To run this code input the following in command prompt:
 
 ```bash
- python code.py
+ python projectcode.py
 ```
 4) Initialize the first frame and select the area of interest to get the output.
 
