@@ -15,7 +15,7 @@ The program allows the user to select a rectangular area within the frame where 
 - NumPy
 
 
-##Contents of this repository
+## Contents of this repository
 
 
 ## Functionality
