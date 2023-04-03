@@ -29,13 +29,13 @@ The program allows the user to select a rectangular area within the frame where 
 
 ## Functionality
 
-The program first prompts the user to select a rectangular area where motion detection is to be performed. To do this, the user clicks the left mouse button on the desired starting point of the rectangle and then drags the mouse to the opposite corner of the rectangle. Once the mouse is released, the program stores the dimensions of the rectangle in the rect variable and begins detecting motion within the selected area.
+The program first prompts the user to select a rectangular area where motion detection is to be performed. To do this, the user clicks the left mouse button on the desired starting point of the rectangle and then drags the mouse to the opposite corner of the rectangle. Once the mouse is released, the program stores the dimensions of the rectangle in the **rect** variable and begins detecting motion within the selected area.
 
 The program then reads frames from the camera, calculates the absolute difference between consecutive frames, and applies thresholding and dilation to highlight the areas of motion. The resulting binary image is then cropped to the selected rectangular area.
 
 Contours are then identified within the cropped image, and bounding rectangles are drawn around them. The program also checks the area of each contour and only draws bounding rectangles for those with an area greater than 300 pixels. If a bounding rectangle is drawn, the program displays the text "Intruder Detected" on the frame.
 
-Finally, the program displays the processed frames along with any bounding rectangles and text. The program continues to read frames until the user terminates it by pressing the Esc key.
+Finally, the program displays the processed frames along with any bounding rectangles and text. The program continues to read frames until the user terminates it by pressing the **Esc** key.
 
 
 ## How to Run the Code
