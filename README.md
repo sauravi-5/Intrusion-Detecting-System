@@ -3,7 +3,7 @@ This program is an implementation of an Intruder Detection System using OpenCV (
 
 The program allows the user to select a rectangular area within the frame where the motion detection is to be performed. Once the user selects the area, any object that enters or moves within that area will be detected and highlighted.
 
-Requirements
+<h1>Requirements</h1>
 OpenCV
 NumPy
 Program Flow
@@ -24,14 +24,6 @@ Display the processed frames along with any bounding rectangles and text.
 Set frame1 to frame2 and read the next frame.
 Terminate the loop if the user presses the Esc key.
 Release the VideoCapture object and destroy all windows.
-Functionality
-The program first prompts the user to select a rectangular area where motion detection is to be performed. To do this, the user clicks the left mouse button on the desired starting point of the rectangle and then drags the mouse to the opposite corner of the rectangle. Once the mouse is released, the program stores the dimensions of the rectangle in the rect variable and begins detecting motion within the selected area.
-
-The program then reads frames from the camera, calculates the absolute difference between consecutive frames, and applies thresholding and dilation to highlight the areas of motion. The resulting binary image is then cropped to the selected rectangular area.
-
-Contours are then identified within the cropped image, and bounding rectangles are drawn around them. The program also checks the area of each contour and only draws bounding rectangles for those with an area greater than 300 pixels. If a bounding rectangle is drawn, the program displays the text "Intruder Detected" on the frame.
-
-Finally, the program displays the processed frames along with any bounding rectangles and text. The program continues to read frames until the user terminates it by pressing the Esc key.
 
 Conclusion
 This program demonstrates the basics of motion detection and object tracking in OpenCV. The use of a rectangular area allows for more targeted motion detection, and the program could be easily extended to include more advanced features, such as face detection or object recognition.
