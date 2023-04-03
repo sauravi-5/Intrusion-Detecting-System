@@ -26,7 +26,7 @@ The program allows the user to select a rectangular area within the frame where 
 ```
 - *code.py* : Contains the code for the entire project.
 - *video.mp4* : This is the file we have tested our code on.
-- *requirements.txt* : this file has information about the `conda` environment used to create this project.
+- *requirements.txt* : This file has information about the `conda` environment used to create this project.
 
 
 ## Functionality
