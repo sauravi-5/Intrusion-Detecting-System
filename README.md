@@ -50,7 +50,7 @@ Finally, the program displays the processed frames along with any bounding recta
 ```bash
  python code.py
 ```
-4) Initialize the first frame and select the area of interest to get the output.
+4) Initialize the first frame and select the area of interest. Then press Enter to get the output.
 
 
 ## Future Scope
