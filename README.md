@@ -12,7 +12,8 @@ The program allows the user to select a rectangular area within the frame where 
 - Python
 - VS Code
 - OpenCV
-- NumPy
+- NumPy 
+- Winsound
 
 
 ## Contents of this repository
