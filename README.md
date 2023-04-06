@@ -14,6 +14,7 @@ The program allows the user to select a rectangular area within the frame where 
 - OpenCV
 - NumPy 
 - Winsound
+- Threading
 
 
 ## Contents of this repository
